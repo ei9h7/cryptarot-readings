@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "react-scripts build",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
