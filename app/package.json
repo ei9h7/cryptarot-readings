@@ -1,8 +1,10 @@
 {
-  "name": "rider-waite-reader",
+  "name": "cryptarot-reader",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "daisyui": "^2.15.0",
     "material-ui": "^0.20.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -11,8 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
   }
 }

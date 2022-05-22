@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import './App.css'
+import './output.css'
 import * as TarotCards from './utils/cards.js'
 import * as TarotSpreads from './utils/spreads.js'
 
@@ -11,7 +12,7 @@ class Header extends Component {
     return (
 
       <header>
-        <h1><a href="/">The Rider-Waite Tarot Reader</a></h1>
+        <h1><a href="/">crypTarot Readings</a></h1>
       </header>
 
     )
@@ -24,7 +25,7 @@ class Footer extends Component {
     return (
 
       <footer>
-        <p>This site uses public domain meanings from <a href="http://tarottools.com/a-guide-to-tarot-card-meanings/">Mark McElroy</a> and public domain art scanned by <a href="https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck">Holly Voley</a></p>
+        <p>This site uses public domain meanings from <a href="http://tarottools.com/a-guide-to-tarot-card-meanings/">Mark McElroy</a> and private art from the crypTarot deck by <a href="https://studiothirteen.io">studioThirteen.io</a></p>
       </footer>
 
     )

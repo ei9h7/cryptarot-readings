@@ -6,26 +6,26 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  background-color: #7cedc2;
+  background-color: #FFFFFF;
 }
 
 header {
   margin: 0;
   padding: 20px;
-  background-color: #008964;
+  background-color: #B8B8B8;
   color: #000;
 }
 
 footer {
   margin: 0;
   padding: 20px;
-  background-color: #008964;
+  background-color: #B8B8B8;
   color: #000;
   text-align: center;
 }
 
 footer a {
-  color: #7cedc2;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -34,12 +34,12 @@ footer a:hover {
 }
 
 .primary {
-  background-color: #7cedc2;
+  background-color: #FFFFFF;
   color: #000;
 }
 
 .secondary {
-  background-color: #46ba92;
+  background-color: #FFFFFF;
   color: #000;
 }
 
@@ -50,18 +50,18 @@ footer a:hover {
 }
 
 .tertiary-container {
-  background-color: #46ba92;
+  background-color: #FFFFFF;
   margin: 0 auto;
   text-align: center;
 }
 
 .tertiary a {
-  border: 1px solid #7cedc2;
+  border: 1px solid #000000;
   padding: 20px;
   border-radius: 10px;
   color: #000;
   text-decoration: none;
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
   font-size: 1.2em;
 }
 
@@ -69,16 +69,16 @@ footer a:hover {
   text-align: center;
 }
 
-h1 {
+/* h1 {
   font-size: 3em;
   font-family: 'Dancing Script', cursive;
   text-align: center;
-}
+} */
 
-h1 a {
+/* h1 a {
   color: #000;
   text-decoration: none;
-}
+} */
 
 h2 {
   text-align: center;
@@ -248,7 +248,7 @@ h4 {
 label {
 	float:left;
 	margin: 4px;
-  background-color: #46ba92;
+  background-color: #EBEBEB;
   border-radius: 10px;
   display: inline-block;
   overflow: auto;
@@ -267,11 +267,11 @@ label input {
 }
 
 label:hover {
-  background-color: #008964;
+  background-color: #B8B8B8;
 }
 
 label input:checked + span {
-  background-color: #008964;
+  background-color: #B8B8B8;
   border-radius: 10px;
 }
 
@@ -287,7 +287,7 @@ form {
 }
 
 .textbox {
-  background-color: #46ba92;
+  background-color: #EBEBEB;
   border: 0;
   font-size: 1.2em;
   height: 1.5em;
@@ -296,8 +296,8 @@ form {
 }
 
 .submit {
-  background-color: #46ba92;
-  font-family: 'Dancing Script', cursive;
+  background-color: #FFFFFF;
+  /* font-family: 'Dancing Script', cursive; */
   margin: 20px 0;
   font-size: 2em;
   font-weight: bold;
