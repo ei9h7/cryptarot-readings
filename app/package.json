@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "tailwindcss": "^3.0.24",
     "@tailwindcss/typography": "^0.5.2",
     "daisyui": "^2.15.0",
     "material-ui": "^0.20.0",
@@ -13,12 +14,23 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css && react-scripts build",
+    "tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "tailwindcss": "^3.0.24"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
