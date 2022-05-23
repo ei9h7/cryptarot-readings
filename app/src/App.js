@@ -25,7 +25,7 @@ class Footer extends Component {
     return (
 
       <footer>
-        <p>This site uses public domain meanings from <a href="http://tarottools.com/a-guide-to-tarot-card-meanings/">Mark McElroy</a> and private art from the crypTarot deck by <a href="https://studiothirteen.io">studioThirteen.io</a></p>
+        <p>This site uses private art from the NFT crypTarot deck by <a href="https://studiothirteen.io">studioThirteen.io</a></p>
       </footer>
 
     )
@@ -44,7 +44,7 @@ class TryAnotherReading extends Component {
     )
   }
 }
-
+// eslint-disable-next-line
 class NotFound404 extends Component {
 
   render() {
